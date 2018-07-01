@@ -8,8 +8,8 @@ var win;
 
 function createWindow() {
   win = new BrowserWindow({
-    width: 400,
-    height: 500,
+    width: 450,
+    height: 600,
     resizable:false,
     center:true,
     icon: path.join(__dirname, 'icon/icon.png'),
