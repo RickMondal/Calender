@@ -21,6 +21,7 @@ function createWindow() {
     slashes: true
   }))
   win.setMenu(null);
+  //win.webContents.openDevTools();
   win.setTitle('CALENDER');
   win.show();
   win.on('closed', () => {
